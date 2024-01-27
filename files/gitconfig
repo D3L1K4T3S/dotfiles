@@ -1,0 +1,26 @@
+[credential]
+  helper = osxkeychain
+
+[user]
+  name = "D3L1K4T3S"
+  email = "zhelagin.egor@yandex.ru"
+
+[color]
+  ui = true
+
+[core]
+  autocrlf = input
+  safecrlf = warn
+  quotepath  = off
+  editor = nvim
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  
+
